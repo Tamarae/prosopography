@@ -149,13 +149,13 @@ section.intro-cntnt h3:last-child:after {
 
 }
 #sub-menu .menu-icons {
-  width: 60px;
+  width: 50px;
   height: 100%;
   background: black;
   position: absolute;
 }
 #sub-menu.mini + section.filter-srch{
-  left: 60px;
+  left: 40px;
 }
 .filter-srch.menu-collapsed + main.detailed {
    margin-left: 308px;
@@ -317,7 +317,7 @@ nav.sub a h3 {
 
 
 .icn-nav span {
-    width: 40px;
+    width: 20px;
     background: rgb(255,255,255);
     display: block;
     height: 2px;
@@ -330,25 +330,12 @@ nav.sub a h3 {
     width: 25px;
     float: left;
 }
-#sub-menu nav a .arrow {
-    width:14px;
-    height:14px;
-    position:absolute;
-    left: 40px;
-    top: 32px;
-    transform: rotate(45deg);
-    background: black;
-    transition: left .3s;
-    z-index: -1;
- }
-#sub-menu nav a.active .arrow {
-    left: 52px;
-}
+
 #sub-menu nav a .icn {
   float: left;
   padding-left: 14px;
   padding-top: 28px;
-  width: 59px;
+  width: 40px;
   background: black;
   height: 80px;
   margin-right: 10px;
@@ -357,15 +344,12 @@ nav.sub a h3 {
   z-index: 100;
 }
 #sub-menu.mini nav a.active .icn {
-  width: 68px;
+  width: 50px;
 background: black;
 border-bottom: 1px solid black;
   transition: left .5s;
 }
-#sub-menu.mini nav a.active .icn .arrow {
-  background: black;
-  left: 61px;
-}
+
 #sub-menu.mini nav a h4, #sub-menu.mini nav a h3 {
   opacity: 0;
   transition: opacity .5s;

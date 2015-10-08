@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <head>
   <title>საქართველოს პროსოპოგრაფია</title>
 
@@ -9,6 +11,7 @@
   <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
   <script type="text/javascript" src="assets/js/events.js"></script>
+  <script type="text/javascript" src="assets/js/map.js"></script>
 
   <!-- meta information for search engines -->
   <meta name="description" content="საბჭოთა საქართველოს პროსოპოგრაფიული ბაზა და სოციალური კლასტერების ანალიზი"/>
@@ -35,7 +38,7 @@
     </ul>
   </nav>
 </header>
-
+<body>
 <section class="filter-ctgr">
     <a href="#">ა</a><a href="#">ბ</a><a href="#">გ</a><a href="#">დ</a><a href="#">ე</a><a href="#">ვ</a><a href="#">ზ</a><a href="#">თ</a><a href="#">ი</a><a href="#">კ</a><a href="#">ლ</a><a href="#">მ</a><a href="#">ნ</a><a href="#">ო</a><a href="#">პ</a><a href="#">ჟ</a><a href="#">რ</a><a href="#">ს</a><a href="#">ტ</a><a href="#">უ</a><a href="#">ფ</a><a href="#">ქ</a><a href="#">ღ</a><a href="#">ყ</a><a href="#">ჰ</a>
 </section>
@@ -107,24 +110,33 @@
     </div>
 
     <div class="cntnt">
-      <p>ლორემ იპსუმ ისვრიან მითხრეს ქარ ლეონიდ აპერიტივი ჰსურს ძმებში ნავები ყვებიან დაუყვირა სიუხვე სიგრძეზეც. ჯიხურში გაგვიჭირდა გამოცვლა შეუყვარდა გამცეს გასაანალიზებელ გიპირებენო შეყვანილნი ქარ გაბერილ დაუყვირა უღრღნიდა გააძრობდე, გადაგვარჩინა ეჭვმა. კონვეიერით დაგიკრავ გასაანალიზებელ, ჰსურს ორგანო გაბერილ დაეწყო, აჩვენებდე ეგდებოდე მნიშვნელოვნად, დაუყვირა მოვასმენინე. ჩაგაცმევდე სისხლჭარბიანმა იჯერა, ოფოფს, წყლულის, სიგრძეზეც დაუყვირა დამშვიდობების, გასაანალიზებელ თმაგადაპარსულისთვის კონვეიერით მნიშვნელოვნად ლეონიდ მოკიბვის აყმუვდა. გამცეს დაგიკრავ ლეონიდ, გასაანალიზებელ, ეკრათ დაუყვირა სემესტრის ბატონებო, ნახევრამდის, მითხრეს აჩვენებდე. აუხსენი აყმუვდა პირველ ისვრიან ავტოინსპექტორებზე გაგვიჭირდა. გააძრობდე ყოფაში აყმუვდა ჯიხურში აჯანყებულ ბატონებო მხარში შეკრან დაუყვირა მნიშვნელოვნად კრებებსა სუნით. ყვირილობის დაეწყო თანამშრომელთა კლასიკურ გაუკეთეს, ეჭვმა ბრძანებულებას. ყოფაში მოვასმენინე კლანჭები ვიგრძენი, სიუხვე სურბარანის დახვრეტას გადაგვარჩინა, ლეონიდ ჰსურს, მხარში კითხვის მოხსნეს გაგვიჭირდა კლასიკურ.</p><br/>
+      <p>სამსახურში ბოროტების ჩადენის გამო დატუსაღებულია ახალციხის საპყრობილის უფროსი ჩიქოვანი. იგი გადმოგზავნილია თბილისის მეტეხის ციხეში მოსათავსებლად.</p><br/>
     </div>
 
     <section class="filter-cntnt">
       <ul>
-         <li class="h3 active">ფაცტის კატეგორია</li><span></span>
+         <li class="h3 active">ავტორობა [2]</li><span></span>
 
          <li class="txt"><a class="active">ფაქტის ტექსტის ნაწილი, რომელიც ჩანს...</a></li>
+         <li class="txt"><a class="active">ფაქტის ტექსტის ნაწილი, რომელიც ჩანს...</a></li>
+
+         <li class="h3 active">გარდაცვალება [4]</li><span></span>
+
+         <li class="txt"><a class="active">ფაქტის ტექსტის ნაწილი, ჩანს...</a></li>
+         <li class="txt"><a class="active">ფაქტის ტექსტის ნაწილი, ჩანს...</a></li>
+         <li class="txt"><a class="active">ფაქტის ტექსტის ნაწილი, ჩანს...</a></li>
+         <li class="txt"><a class="active">ფაქტის ტექსტის ნაწილი, ჩანს...</a></li>
       </ul>
+
    </section>
 
    <section class="sources">
-     <span>წყარო:</span>&nbsp;წყაროს დასახელება<br/>
-     <span>წყაროს ტიპი:</span>&nbsp;წყაროს ტიპის დასახელება<br/>
-     <span>გამოცემის ადგილი:</span>&nbsp;გამოცემის ადგილის დასახელება<br/>
-     <span>ენა:</span>&nbsp;ენა რომელიც არის<br/>
-     <span>დაცულია:</span>&nbsp;სადაც დაცულია<br/><br/><br/><br/>
- </section>
+     <span>წყარო:</span>&nbsp;<a href="#">საქართველოს რესპუბლიკა, 1920 | 21 იანვარი</a><br/>
+     <span>წყაროს ტიპი:</span>&nbsp;<a href="#">პერიოდიკა</a><br/>
+     <span>გამოცემის ადგილი:</span>&nbsp;თბილისი<br/>
+     <span>ენა:</span>&nbsp;ქართული<br/>
+     <span>დაცულია:</span>&nbsp;<a href="#">საქართველოს პარლამენტის ეროვნული ბიბლიოთეკა</a><br/><br/><br/><br/>
+  </section>
  <section>
    <h5>სხვა პირები ამ ფაქტიდან | სხვა ფაქტები ამ წყაროდან </h5>
 
@@ -132,3 +144,7 @@
   </div> <!-- end first content -->
  </article>
 </main>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript" src="assets/js/map.js"></script>
+</body>
+<html>

@@ -21,6 +21,12 @@ main.home {
   overflow: hidden;
 }
 
+.truncate {
+  width: 210px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 /*map*/
 #map {
         width: 500px;

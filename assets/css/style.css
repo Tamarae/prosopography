@@ -20,6 +20,13 @@ main.home {
   bottom: 0px;
   overflow: hidden;
 }
+
+/*map*/
+#map {
+        width: 500px;
+        height: 400px;
+      }
+
 section.intro-cntnt {
   width: 60%;
   background: black;

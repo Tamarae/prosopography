@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <head>
   <title>საქართველოს პროსოპოგრაფია</title>
 
@@ -9,6 +11,7 @@
   <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
   <script type="text/javascript" src="assets/js/events.js"></script>
+  <script type="text/javascript" src="assets/js/map.js"></script>
 
   <!-- meta information for search engines -->
   <meta name="description" content="საბჭოთა საქართველოს პროსოპოგრაფიული ბაზა და სოციალური კლასტერების ანალიზი"/>
@@ -35,7 +38,7 @@
     </ul>
   </nav>
 </header>
-
+<body>
 <section class="filter-ctgr">
     <a href="#">ა</a><a href="#">ბ</a><a href="#">გ</a><a href="#">დ</a><a href="#">ე</a><a href="#">ვ</a><a href="#">ზ</a><a href="#">თ</a><a href="#">ი</a><a href="#">კ</a><a href="#">ლ</a><a href="#">მ</a><a href="#">ნ</a><a href="#">ო</a><a href="#">პ</a><a href="#">ჟ</a><a href="#">რ</a><a href="#">ს</a><a href="#">ტ</a><a href="#">უ</a><a href="#">ფ</a><a href="#">ქ</a><a href="#">ღ</a><a href="#">ყ</a><a href="#">ჰ</a>
 </section>
@@ -91,8 +94,6 @@
     <h2><a href="#">ზემო ალვანი , საქართველო</a></h2>
     <h2><a href="#">დუშეთი , საქართველო</a></h2>
 
-
-
 </div>
 </section>
 
@@ -127,6 +128,11 @@
    <span>წყარო:</span>&nbsp;საქართველოს რესპუბლიკა, 1920 | 21 იანვარი<br/>
    <span>პირი:</span>&nbsp;ალექსიძე, ჩიქოვანი<br/>
 </section>
+<div id="map"></div>
+
   </div> <!-- end first content -->
  </article>
 </main>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+</body>
+</html>

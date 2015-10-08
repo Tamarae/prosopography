@@ -314,8 +314,6 @@ nav.sub a h3 {
     opacity: 1;
 }
 
-
-
 .icn-nav span {
     width: 20px;
     background: rgb(255,255,255);
@@ -327,15 +325,15 @@ nav.sub a h3 {
     -webkit-transition: all .2s;
 }
 .icn img {
-    width: 25px;
+    width: 20px;
     float: left;
 }
 
 #sub-menu nav a .icn {
   float: left;
-  padding-left: 14px;
+  padding-left: 8px;
   padding-top: 28px;
-  width: 40px;
+  width: 25px;
   background: black;
   height: 80px;
   margin-right: 10px;
@@ -344,7 +342,7 @@ nav.sub a h3 {
   z-index: 100;
 }
 #sub-menu.mini nav a.active .icn {
-  width: 50px;
+  width: 53px;
 background: black;
 border-bottom: 1px solid black;
   transition: left .5s;

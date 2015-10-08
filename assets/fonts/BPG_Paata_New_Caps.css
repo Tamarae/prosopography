@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG_Paata_New_Caps';
+    src: url('fonts/BPG_Paata_New_Caps.eot');
+    src: url('fonts/BPG_Paata_New_Caps.eot') format('embedded-opentype'),
+         url('fonts/BPG_Paata_New_Caps.woff2') format('woff2'),
+         url('fonts/BPG_Paata_New_Caps.woff') format('woff'),
+         url('fonts/BPG_Paata_New_Caps.ttf') format('truetype'),
+         url('fonts/BPG_Paata_New_Caps.svg#BPG_Paata_New_Caps') format('svg');
+}

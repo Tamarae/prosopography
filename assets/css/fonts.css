@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'DejaVuSans';
+    src: url('../fonts/DejaVuSans.eot');
+    src: url('../fonts/DejaVuSans.eot') format('embedded-opentype'),
+    url('../fonts/DejaVuSans.woff') format('woff'),
+    url('../fonts/DejaVuSans.ttf') format('truetype'),
+    url('../fonts/DejaVuSans.svg#BPGNinoMtavruliRegular') format('svg');
+}
+@font-face {
+    font-family: 'BPG_Paata_New_Caps';
+    src: url('../fonts/BPG_Paata_New_Caps.eot');
+    src: url('../fonts/BPG_Paata_New_Caps.eot') format('embedded-opentype'),
+         url('../fonts/BPG_Paata_New_Caps.woff2') format('woff2'),
+         url('../fonts/BPG_Paata_New_Caps.woff') format('woff'),
+         url('../fonts/BPG_Paata_New_Caps.ttf') format('truetype'),
+         url('../fonts/BPG_Paata_New_Caps.svg#BPG_Paata_New_Caps') format('svg');
+}
+@font-face {
+    font-family: 'BPG_Paata_New';
+    src: url('../fonts/BPG_Paata_New.eot');
+    src: url('../fonts/BPG_Paata_New.eot') format('embedded-opentype'),
+         url('../fonts/BPG_Paata_New.woff2') format('woff2'),
+         url('../fonts/BPG_Paata_New.woff') format('woff'),
+         url('../fonts/BPG_Paata_New.ttf') format('truetype'),
+         url('../fonts/BPG_Paata_New.svg#BPG_Paata_New') format('svg');
+}

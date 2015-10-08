@@ -1,0 +1,23 @@
+body {
+  font-family: 'DejaVuSans';
+}
+h1, h2, h3, h4, h5, h6 {}
+section.intro-cntnt h1, nav.main {
+  font-family: 'BPG_Paata_New_Caps';
+}
+section.intro-cntnt h2 {
+  font-family: 'BPG_Paata_New';
+}
+section.intro-cntnt h3 {
+  display: inline-block;
+}
+section.intro-cntnt h3 a {
+  color: #3f3f3f;
+}
+nav a {
+  color: #fff;
+}
+a {
+  transition: opacity, color .5s;
+  -webkit-transition: opacity, color .5s;
+}
